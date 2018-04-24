@@ -121,7 +121,7 @@ exports.default = {
     if (!this.$markerObject) return;
 
     if (this.$clusterObject) {
-      this.$clusterObject.removeMarker(this.$markerObject);
+//       this.$clusterObject.removeMarker(this.$markerObject);
     } else {
       this.$markerObject.setMap(null);
     }
